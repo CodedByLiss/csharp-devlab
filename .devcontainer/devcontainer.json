@@ -1,0 +1,13 @@
+{
+  "name": "CSharp Dev Container",
+  "build": {
+    "dockerile": "Dockerfile"
+},
+"extensions": [
+  "ms-dotnettools.csharp",
+  "ms-vscode.azurecli",
+  "ms-azuretools.vscode-docker"
+],
+"postCreateCommand": "dotnet --version",
+"remoteUser": "vscode"
+}
